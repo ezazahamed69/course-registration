@@ -1,17 +1,17 @@
  1. Add at least 3 Project features
 Ans :
 
-1. **Course Details and Descriptions**:
+ **Course Details and Descriptions**:
    - Include detailed course descriptions, prerequisites, and other relevant information.
    - Allow students to click on a course card to view more information about the course.
    - Provide a dedicated page for each course with a comprehensive description, instructor details, and a syllabus.
 
-2. **Course Registration Validation**:
+ **Course Registration Validation**:
    - Implement server-side validation to ensure that selected courses are still available at the time of registration.
    - Handle scenarios where courses may become unavailable or full between the time they are displayed and when a student attempts to register.
    - Notify students of any changes in course availability and offer alternatives if a course is no longer available.
 
-3. **Schedule Planner**:
+ **Schedule Planner**:
    - Create a schedule planner feature that allows students to build their semester schedules by adding selected courses to a calendar view.
    - Provide drag-and-drop functionality to easily organize and adjust the schedule.
    - Highlight any scheduling conflicts or overlapping classes and offer suggestions for resolving them.
