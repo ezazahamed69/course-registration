@@ -1,62 +1,71 @@
 [
     {
-        "cover_photo": "https://i.ibb.co/SmL6V0f/1.jpg",
+        "id": 1,
+        "image": "https://i.ibb.co/SmL6V0f/1.jpg",
         "course_name": "CSE 101: Introduction to Programming",
         "credit": 3,
         "price": 49.99,
         "details": "Learn the basics of programming with this introductory course. No prior experience required."
     },
     {
-        "cover_photo": "https://i.ibb.co/SPqk9KB/2.png",
+        "id": 2,
+        "image": "https://i.ibb.co/SPqk9KB/2.png",
         "course_name": "CSE 201: Data Structures and Algorithms",
         "credit": 4,
         "price": 79.99,
         "details": "Explore data structures and algorithms, essential for computer science and engineering."
     },
     {
-        "cover_photo": "https://i.ibb.co/hXGfSq9/3.jpg",
+        "id": 3,
+        "image": "https://i.ibb.co/hXGfSq9/3.jpg",
         "course_name": "CSE 301: Web Development Bootcamp",
         "credit": 5,
         "price": 99.99,
         "details": "Become a full-stack web developer in this intensive bootcamp. Includes HTML, CSS, and JavaScript."
     },
     {
-        "cover_photo": "https://i.ibb.co/GdVd3QC/4.jpg",
+        "id": 4,
+        "image": "https://i.ibb.co/GdVd3QC/4.jpg",
         "course_name": "CSE 401: Machine Learning and AI",
         "credit": 3,
         "price": 59.99,
         "details": "Master the art of machine learning and artificial intelligence in this advanced course."
     },
     {
-        "cover_photo": "https://i.ibb.co/yyvH9d5/5.jpg",
+        "id": 5,
+        "image": "https://i.ibb.co/yyvH9d5/5.jpg",
         "course_name": "CSE 501: Cybersecurity Fundamentals",
         "credit": 2,
         "price": 39.99,
         "details": "Learn the essentials of cybersecurity, including threat analysis and defense strategies."
     },
     {
-        "cover_photo": "https://i.ibb.co/dfR1Yws/Rectangle-2-1.png",
+        "id": 6,
+        "image": "https://i.ibb.co/dfR1Yws/Rectangle-2-1.png",
         "course_name": "CSE 601: Database Design and Management",
         "credit": 2,
         "price": 49.99,
         "details": "Gain expertise in designing and managing databases for various applications."
     },
     {
-        "cover_photo": "https://i.ibb.co/rpt1GFK/7.png",
+        "id": 7,
+        "image": "https://i.ibb.co/rpt1GFK/7.png",
         "course_name": "CSE 701: Software Engineering Principles",
         "credit": 3,
         "price": 29.99,
         "details": "Explore the principles of software engineering and best practices in development."
     },
     {
-        "cover_photo": "https://i.ibb.co/kSgXmJc/8.png",
+        "id": 8,
+        "image": "https://i.ibb.co/kSgXmJc/8.png",
         "course_name": "CSE 801: Cloud Computing and Virtualization",
         "credit": 1,
         "price": 19.99,
         "details": "Learn about cloud computing and virtualization technologies in this advanced course."
     },
     {
-        "cover_photo": "https://i.ibb.co/9tsjbmn/9.png",
+        "id": 9,
+        "image": "https://i.ibb.co/9tsjbmn/9.png",
         "course_name": "CSE 901: Data Analytics",
         "credit": 2,
         "price": 69.99,

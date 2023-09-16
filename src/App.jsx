@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Dataload from './Dataload'
+import Header from './Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
-      <h1 className='text-4xl text-center'>Course Registration</h1>
-      
+     
+     <Header></Header>
+     <Dataload></Dataload>
+
+    
+  
+         
       
     </>
   )
