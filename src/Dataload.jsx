@@ -73,15 +73,16 @@ function Dataload() {
                 </div>
                 <div className="footer" style={{ flex: 1 }}>
                     <div className="footer-content">
-                        <h2 className="main-footer" style={{ margin: "10px", padding: "5px 0" }}>Credit Hour Remaining : {20 - totalCreditHour} hr</h2>
+                        <h2 className="main-footer border-b-2" style={{ margin: "6px", padding: "5px 0" }}>Credit Hour Remaining : {20 - totalCreditHour} hr</h2>
                         <hr style={{ margin: "10px 0" }} />
-                        <h2 className="footer-title">Course Name</h2>
+                        <h2 className="footer-title border-b-3">Course Name</h2>
                         <ol>
                             {selectedCourses.map((course, index) => (
                                 <li key={index}>{course.course_name}</li>
                             ))}
                         </ol>
-                        <h2 className="footer-title">Total Credit Hour: {totalCreditHour}</h2>
+                        <h2 className="footer-title border-b-2">Total Credit Hour: {totalCreditHour}</h2>
+                    
                         <h2 className="footer-title">Total Price: ${totalPrice}</h2>
                     </div>
                 </div>
