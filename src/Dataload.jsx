@@ -15,10 +15,14 @@ function Dataload() {
     }, []);
 
     const handleSelectCourse = (course) => {
-        if (!selectedCourses.includes(course)) {
+        const newTotalCreditHour = totalCreditHour + course.credit;
+        
+        if (newTotalCreditHour <= 20) {
             setSelectedCourses([...selectedCourses, course]);
-            setTotalCreditHour(prevTotalCreditHour => prevTotalCreditHour + course.credit);
+            setTotalCreditHour(newTotalCreditHour);
             setTotalPrice(prevTotalPrice => prevTotalPrice + course.price);
+        } else {
+            alert("Maximum credit hour limit crossed. Maximum is 20 credit hours.");
         }
     };
 
@@ -69,7 +73,7 @@ function Dataload() {
                 </div>
                 <div className="footer" style={{ flex: 1 }}>
                     <div className="footer-content">
-                        <h2 className="main-footer" style={{ margin: "10px", padding: "5px 0" }}>Credit Hour Remaining : hr</h2>
+                        <h2 className="main-footer" style={{ margin: "10px", padding: "5px 0" }}>Credit Hour Remaining : {20 - totalCreditHour} hr</h2>
                         <hr style={{ margin: "10px 0" }} />
                         <h2 className="footer-title">Course Name</h2>
                         <ol>
